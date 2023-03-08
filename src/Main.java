@@ -8,7 +8,7 @@ public class Main {
         System.setProperty("webdriver.chrome.driver",
                 "/Users/codewitharjun/Downloads/chromedriver_mac_arm64/chromedriver");
         driver= new ChromeDriver();
-        driver.get("https://www.youtube.com");
+        driver.get("https://www.youtube.com/codewitharjun?sub_confirmation=1");
     }
     public static void main(String[] args) {
 
